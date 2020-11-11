@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	color: black;
+}
+
+.menu {
+	width: 50%;
+	height: 70px;
+}
+
+.menu_box {
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu_box > li {
+	flex-basis: 100px;
+}
+
+.menu_box > li:hover {
+	color: #ccafaf;
+}
+
+.menu_box > li > a:hover {
+	color: #ccafaf;
+}
+
+.menu > ul > li:hover ul {
+	display: block;
+}
+
+.sub {
+	display: block;
+	display: none;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.sub > li > a:hover {
+	color: #ffcac2;
+}
